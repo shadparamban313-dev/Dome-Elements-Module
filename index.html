@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Management System</h1>
+    <button id="submit" type="submit">Display Students</button>
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>age</th>
+                <th>mark</th>
+                <th>course</th>
+                <th>active</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+            <tr>
+                <td>1</td>
+                <td>Arun</td>
+                <td>21</td>
+                <td>85</td>
+                <td>MERN</td>
+                <td>true</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rahul</td>
+                <td>22</td>
+                <td>65</td>
+                <td>Python</td>
+                <td>false</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ajay</td>
+                <td>20</td>
+                <td>90</td>
+                <td>MERN</td>
+                <td>true</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>John</td>
+                <td>23</td>
+                <td>45</td>
+                <td>Python</td>
+                <td>true</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Vishnu</td>
+                <td>21</td>
+                <td>75</td>
+                <td>MERN</td>
+                <td>false</td>
+            </tr>
+        </tbody>
+    </table>
+<button onclick="showTopStudents()">Show Top Students</button>
+<div id="studentList"></div>
+
+<input id="placread" type="text" placeholder="">
+<button onclick="change()">change theme</button>
+    <script type="module" src="./script.js"></script>
+    
+    
+</body>
+</html>
